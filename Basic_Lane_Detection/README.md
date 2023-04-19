@@ -11,9 +11,6 @@ The goal of this project is to make a pipeline that finds lane lines on the road
 [image5]: ./test_images_output/solidYellowLeft.jpg "solidYellowLeft.jpg"
 [image6]: ./test_images_output/whiteCarLaneSwitch.jpg "whiteCarLaneSwitch.jpg"
 
-A demo of the pipeline can be found on [Youtube](https://www.youtube.com/watch?v=Nn7XRiKza1c)
-
-[![Naive Lane Tracking Video](https://img.youtube.com/vi/Nn7XRiKza1c/0.jpg)](https://www.youtube.com/watch?v=Nn7XRiKza1c)
 
 ## Pipeline Overview
 
