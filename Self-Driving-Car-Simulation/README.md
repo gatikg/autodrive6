@@ -1,15 +1,3 @@
-# Table of Contents
-* [Abstract](#abstract) 
-* [Data Collection and Balancing the Dataset](#data-collection-and-balancing-the-dataset)
-* [Data Augmentation and Preprocessing](#data-augmentation-and-preprocessing)
-* [Neural Network Architecture and Training Process](#neural-network-architecture-and-training-process)
-* [Putting Them All Together: Autonomous Driving](#putting-them-all-together-autonomous-driving)
-* [File Descriptions and Usage](#file-descriptions-and-usage)
-* [Demonstration Videos](#demonstration-videos)
-* [Reference Paper](#reference-paper)
-
-# Abstract 
-In this project, self driving car simulation is carried out by reproducing a human performed driving pattern using the supervised learning based behavioral cloning approach. The required data are collected by driving couple of laps around Track #1 of the Udacity's self driving car simulator, various augmentation techniques are used to make the trained model generalize well enough so that the car drives autonomously on both Track #1 and an unseen track, Track #2, and making use of a convolutional neural network (CNN) based on the NVIDIA architecture, steering angles corresponding to the positions of the car on the track are learned. A real-time web app is used make the model and the simulator communicate continuously so that the essential information for autonomous driving such as the current position of the car, predicted steering angle and the throttle to be given are passed along them.   
 
 # Data Collection and Balancing the Dataset
 I drove around the Track #1 approximately 15 minutes to collect the images with the three cameras mounted on the left, center and right side of the car. Figure 1 shows a set of sample images.  
@@ -99,9 +87,3 @@ python drive.py
 ~~~
 * Launch the Udacity's self driving car simulator, click `Play!`, choose a track and select `AUTONOMOUS MODE`  
 
-# Demonstration Videos
-* Track #1: https://www.youtube.com/watch?v=O2iRXwEec4c  
-* Track #2: https://www.youtube.com/watch?v=B_ts9OQ-NP0  
-
-# Reference Paper
-https://developer.nvidia.com/blog/deep-learning-self-driving-cars/    
